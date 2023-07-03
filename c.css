@@ -1,6 +1,10 @@
 body {
   background-image: url("73.png");
 }
+p {
+  color: yellow;
+}
+
 body {
   display: flex;
   justify-content: center;
