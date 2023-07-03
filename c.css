@@ -9,13 +9,10 @@ body {
 }
 
 .container {
-  background-color: #fff; /* 设置容器背景色 */
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* 添加容器阴影效果 */
-}
-
-a{
-  color: #ffcc00; /* 设置标题字体颜色为亮黄色 */
   text-align: center;
 }
+
+.container p {
+  color: #ffcc00; /* 设置字体颜色为亮黄色 */
+}
+
