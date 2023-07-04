@@ -12,43 +12,98 @@
       align-items: center;
       background-color: #f9f9f9; /* 设置页面背景色 */
       color: #ffcc00; /* 设置文字颜色为亮黄色 */
+      font-family: Arial, sans-serif; /* 设置字体样式 */
+      line-height: 1.5; /* 设置行高 */
+      margin: 0; /* 清除默认边距 */
+      padding: 0; /* 清除默认内边距 */
     }
-    /* 修改导航栏文字颜色为亮黄色 */
+
+    /* 整体布局 */
+    .container {
+      max-width: 800px; /* 设置最大宽度 */
+      margin: 20px; /* 设置边距 */
+    }
+
+    /* 头部样式 */
+    header {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    /* 导航栏样式 */
+    nav {
+      background-color: #333; /* 设置背景色 */
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none; /* 移除列表样式 */
+      margin: 0; /* 清除默认边距 */
+      padding: 0; /* 清除默认内边距 */
+    }
+
+    nav ul li {
+      display: inline-block; /* 将导航项水平排列 */
+      margin-right: 10px; /* 设置项之间的间距 */
+    }
+
     nav ul li a {
-      color: #ffcc00;
+      color: #fff; /* 设置链接文字颜色为白色 */
+      text-decoration: none; /* 移除下划线 */
+      padding: 5px 10px; /* 设置内边距 */
+    }
+
+    /* 主要内容样式 */
+    section {
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+    article {
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      color: #333;
+      font-size: 18px;
+    }
+
+    p {
+      color: #555;
+    }
+
+    /* 页脚样式 */
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
     }
   </style>
 </head>
 
 <body>
-  <header>
-    <h1>学习记录博客</h1>
-  </header>
+  <div class="container">
+    <header>
+      <h1>学习记录博客</h1>
+    </header>
 
-  <nav>
-    <ul>
-      <li><a href="#">Day 1</a></li>
-      <li><a href="#">Day 2</a></li>
-      <li><a href="#">Day 3</a></li>
-      <!-- 添加更多的学习记录链接 -->
-    </ul>
-  </nav>
+    <nav>
+      <ul>
+        <li><a href="#">Day 1</a></li>
+        <li><a href="#">Day 2</a></li>
+        <li><a href="#">Day 3</a></li>
+        <!-- 添加更多的学习记录链接 -->
+      </ul>
+    </nav>
 
-  <section>
-    <h2>Day 1</h2>
-    <article>
-      <h3>Cygnus</h3>
-      <p>培训笔记</p>
-      <p>这是第一天的学习记录。</p>
-      <!-- 添加更多的内容 -->
-    </article>
-  </section>
-
-  <!-- 添加更多的学习记录部分 -->
-
-  <footer>
-    <p>&copy; 2023 学习记录博客</p>
-  </footer>
-</body>
-
-</html>
+    <section>
+      <h2>Day 1</h2>
+      <article>
+        <h3>Cygnus</h3>
