@@ -1,5 +1,8 @@
 body {
   background-image: url("73.png");
+  color: #ffcc00; /* Set text color to bright yellow */
+}
+
 }
 p {
   color: yellow;
